@@ -27,6 +27,21 @@ footer {
   overflow: hidden;
   text-align: center;
 }
+.profile__info {
+  padding: 5rem 0 1.5rem 0;
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-heavy);
+}
+.info__age {
+  font-weight: var(--font-weight-normal);
+  color: var(--color-dark-gray);
+}
+.info__city {
+  font-weight: var(--font-weight-normal);
+  color: var(--color-dark-gray);
+  font-size: 1rem;
+}
+
 .profile__stats {
   display: flex;
   justify-content: space-around;
