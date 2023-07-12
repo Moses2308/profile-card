@@ -26,27 +26,39 @@ footer {
   border-radius: 1rem;
   overflow: hidden;
   text-align: center;
+
+  position: relative;
 }
+.profile__picture {
+  position: absolute;
+  top: 22%;
+  left: 35%;
+  border-radius: 50%;
+  border: 5px solid white;
+
+  width: 30.3%;
+}
+
 .profile__info {
-  padding: 5rem 0 1.5rem 0;
+  padding: 4rem 0 1.5rem 0;
   font-size: 1.25rem;
   font-weight: var(--font-weight-heavy);
 }
 .info__age {
   font-weight: var(--font-weight-normal);
   color: var(--color-dark-gray);
+  margin-left: 0.25rem;
 }
 .info__city {
   font-weight: var(--font-weight-normal);
   color: var(--color-dark-gray);
   font-size: 1rem;
 }
-
 .profile__stats {
   display: flex;
   justify-content: space-around;
   padding: 1.5rem 1rem;
-  border: 1px solid var(--color-dark-gray);
+  border-top: 1px solid var(--color-dark-gray);
 }
 .category__amount {
   font-weight: var(--font-weight-heavy);
