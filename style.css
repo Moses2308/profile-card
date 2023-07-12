@@ -1,0 +1,9 @@
+:root {
+  --color-cyan: hsl(185, 75%, 39%);
+  --color-dark-blue: hsl(229, 23%, 23%);
+  --color-blue: hsl(227, 10%, 46%);
+  --color-dark-gray: hsl(0, 0%, 59%);
+
+  --font-weight-normal: 400;
+  --font-weight-heavy: 700;
+}
