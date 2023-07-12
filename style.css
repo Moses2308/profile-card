@@ -7,3 +7,26 @@
   --font-weight-normal: 400;
   --font-weight-heavy: 700;
 }
+body {
+  background-color: var(--color-cyan);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+
+  font-family: "Kumbh Sans", sans-serif;
+}
+header,
+footer {
+  display: none;
+}
+
+.profile-card {
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+}
+.profile__stats {
+  display: flex;
+  justify-content: space-around;
+}
