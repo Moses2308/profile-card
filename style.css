@@ -14,6 +14,7 @@ body {
   place-items: center;
 
   font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
 }
 header,
 footer {
@@ -29,4 +30,14 @@ footer {
 .profile__stats {
   display: flex;
   justify-content: space-around;
+  padding: 1.5rem 1rem;
+  border: 1px solid var(--color-dark-gray);
+}
+.category__amount {
+  font-weight: var(--font-weight-heavy);
+  font-size: 1.25rem;
+}
+.stats__category > p:nth-of-type(2) {
+  color: var(--color-dark-gray);
+  font-size: 0.75rem;
 }
